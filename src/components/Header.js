@@ -5,7 +5,6 @@ const styles = {
   viewStyle: {
     alignItems: 'center',
     backgroundColor: '#F8F8F8',
-    display: 'flex',
     elevation: 2,
     justifyContent: 'center',
     height: 80,
