@@ -2,6 +2,7 @@ import React from 'react';
 import { Image, Text, View } from 'react-native';
 import Card from './Card';
 import CardSection from './CardSection';
+import Button from './Button';
 
 const styles = {
   headerStyle: {
@@ -48,11 +49,16 @@ export default ({ album }) => {
           <Text>{artist}</Text>
         </View>
       </CardSection>
+
       <CardSection>
         <Image
           style={albumImageStyle}
           source={{ uri: image }}
         />
+      </CardSection>
+
+      <CardSection>
+        <Button label='Buy now' />
       </CardSection>
     </Card>
   );
