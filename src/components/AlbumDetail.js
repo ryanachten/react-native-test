@@ -58,7 +58,10 @@ export default ({ album }) => {
       </CardSection>
 
       <CardSection>
-        <Button label='Buy now' />
+        <Button
+          label='Buy now'
+          onPress={() => console.log(title)}
+        />
       </CardSection>
     </Card>
   );
