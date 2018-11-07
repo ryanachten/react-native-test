@@ -22,12 +22,12 @@ const styles = {
   }
 };
 
-const Button = ({ label, onPress }) => {
+const Button = ({ children, onPress }) => {
   const { buttonStyle, textStyle } = styles;
   return (
     <TouchableOpacity style={buttonStyle} onPress={onPress} >
       <Text style={textStyle}>
-        {label}
+        {children}
       </Text>
     </TouchableOpacity>
   );

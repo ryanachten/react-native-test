@@ -58,10 +58,9 @@ export default ({ album }) => {
       </CardSection>
 
       <CardSection>
-        <Button
-          label='Buy now'
-          onPress={() => Linking.openURL(url)}
-        />
+        <Button onPress={() => Linking.openURL(url)}>
+          Buy now
+        </Button>
       </CardSection>
     </Card>
   );
